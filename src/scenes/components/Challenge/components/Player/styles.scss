@@ -1,0 +1,22 @@
+:local(.Player) {
+  display: inline-block;
+  width: 320px;
+
+  > div {
+    font-size: 14px;
+    text-align: center;
+    width: 105px;
+  }
+
+  > span {
+    vertical-align: middle;
+  }
+
+  .score {
+    border: 1px solid white;
+    border-radius: 3px;
+    display: inline-block;
+    min-width: 60px;
+    padding: 4px;
+  }
+}
